@@ -1,0 +1,13 @@
+{
+	"name": "Kicad",
+	"build": {
+		"dockerfile": "DockerFile"
+	},
+	"mounts": [
+		"source=/mnt/d/OneDrive/Dokumente/KiCad/10.0,target=/mnt/kicad,type=bind"
+	],
+	"runArgs": [
+		"--privileged",
+		"--net=host"
+	]
+}

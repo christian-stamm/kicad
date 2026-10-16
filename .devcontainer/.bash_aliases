@@ -1,0 +1,1 @@
+alias JLC="JLC2KiCadLib $@ -dir /mnt/kicad/footprints -footprint_lib JLCPCB.pretty -symbol_lib JLCPCB -symbol_lib_dir ../symbols -model_dir ../../3dmodels -model_base_variable USER_MODEL_DIR"
